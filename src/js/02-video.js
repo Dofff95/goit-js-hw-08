@@ -1,12 +1,13 @@
-// import Player from '@vimeo/player';
-// const iframe = document.querySelector('iframe');
-// const player = new Vimeo.Player(iframe);
+import Player from '@vimeo/player';
 
 // const player = new Player('handstick', {
-//   id: 19231868,
-//   width: 640,
+//   loop: true,
+//   fullscreen: true,
+//   quality: '1080p',
 // });
 
 // player.on('play', function () {
 //   console.log('played the video!');
 // });
+
+const myVideo = document.getElementById('vimeo-player');
